@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario para introducir nuevo Libro</title>
+    <link rel="stylesheet" href="estilos/formulario.css">
+    
+</head>
+<body>
+    <h1>Nuevo Libro</h1>
+    <form id="formu">
+        <table>
+            <tr>
+                <td>Titulo</td>
+                <td><input type="text" name="titulo"></td>
+            </tr>
+            <tr>
+                <td>ISBN</td>
+                <td><input type="text" name="isbn"></td>
+            </tr>
+            <tr>
+                <td>Páginas</td>
+                <td><input type="text" name="numpaginas"></td>
+            </tr>
+            <tr>
+                <td>Género</td>
+                <td><select name="genero">
+                    <option>Ciencia Ficción</option>
+                    <option>Terror</option>
+                    <option>Zombies</option>
+                    <option>Fantasía</option>
+                    <option>Comedia</option>
+                    <option>Drama</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Año</td>
+                <td><input type="text" name="anio"></td>
+            </tr>
+            <tr>
+                <td>Portada</td>
+                <td><input type="text" name="cover"></td>
+            </tr>
+            <tr>
+                <td>Autor</td>
+                <td><input type="text" name="autor"></td>
+            </tr>
+            <tr>
+                <td>Sinopsis</td>
+                <td><textarea name="resumen"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="button" value="Insertar">
+                    <input type="reset" value="Resetear">
+                    <input type="button" value="Cancelar">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
